@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-04T21:47:28 IST" name="Suite" finished-at="2023-05-04T21:47:39 IST" duration-ms="11576">
+    <groups>
+    </groups>
+    <test started-at="2023-05-04T21:47:28 IST" name="Test" finished-at="2023-05-04T21:47:39 IST" duration-ms="11576">
+      <class name="com.day10.task5">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.day10.task5@639c2c1d]" started-at="2023-05-04T21:47:03 IST" name="init" finished-at="2023-05-04T21:47:28 IST" duration-ms="24565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Test1()[pri:0, instance:com.day10.task5@639c2c1d]" started-at="2023-05-04T21:47:28 IST" name="Test1" finished-at="2023-05-04T21:47:38 IST" duration-ms="9699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.day10.task5@639c2c1d]" started-at="2023-05-04T21:47:38 IST" name="getResult" finished-at="2023-05-04T21:47:38 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=task5.Test1()[pri:0, instance:com.day10.task5@639c2c1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Test2()[pri:0, instance:com.day10.task5@639c2c1d]" started-at="2023-05-04T21:47:38 IST" name="Test2" finished-at="2023-05-04T21:47:39 IST" duration-ms="1475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.day10.task5@639c2c1d]" started-at="2023-05-04T21:47:39 IST" name="getResult" finished-at="2023-05-04T21:47:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test2 status=SUCCESS method=task5.Test2()[pri:0, instance:com.day10.task5@639c2c1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day10.task5@639c2c1d]" started-at="2023-05-04T21:47:39 IST" name="tearDown" finished-at="2023-05-04T21:47:39 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.day10.task5 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
